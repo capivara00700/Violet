@@ -30,8 +30,8 @@ p{
     left: 1%;
 }
 
-@media(max-width: 750px){
+@media(max-width: 600px){
     #paralax{
-        background-position: center;
+        background-position-x: -500px;
     }
 }   
