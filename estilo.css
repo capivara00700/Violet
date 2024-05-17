@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+}
+
+@font-face{
+    font-family: 'ananda_2.ttf';
+    src: url('ananda_2/Ananda\ Black\ Personal\ Use.ttf');
+}
+
+p{
+    font-family: 'Lucida Sans';
+    font-size: 1.2em;
+}
+
+#abc a{
+    color: white;
+}
+
+#paralax{
+    height: 100%;
+    width: 100%;
+    background: url("fotos/wallpaper2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#teste{
+    width: 53%;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+@media(max-width: 750px){
+    #paralax{
+        background-position: center;
+    }
+}   
